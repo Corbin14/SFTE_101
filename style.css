@@ -1,8 +1,10 @@
-body { text-align: center; }
+body { text-align: center; 
 
+    background-color: burlywood;}
+back-ground
 .navbar ul {
     list-style-type: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 54, 51);
     padding: 0%;
     margin: 0%;
 
@@ -18,7 +20,7 @@ body { text-align: center; }
 }
 
 .navbar a:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 54, 51);
     border: #089352;
     border-style: solid;
 
