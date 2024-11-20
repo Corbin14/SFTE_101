@@ -1,10 +1,15 @@
 body { text-align: center; 
 
-    background-color: burlywood;}
-back-ground
+    background-color: burlywood;
+    background-image: linear-gradient(to bottom right, red, yellow);
+      
+
+}
+
+
 .navbar ul {
     list-style-type: none;
-    background-color: rgb(219, 54, 51);
+    background-color: red(255, 4, 0);
     padding: 0%;
     margin: 0%;
     position:sticky;
@@ -18,7 +23,7 @@ back-ground
 }
 .navbar a{
     color: #000;
-    text-decoration: none;
+    text-decoration:solid;
     padding: 15px;
     display: block;
     text-align: left;
@@ -26,7 +31,7 @@ back-ground
 }
 
 .navbar a:hover{
-    background-color: rgb(219, 54, 51);
+    background-color: rgb(227, 31, 28);
     border: #301d02;
     border-style: solid;
 border-radius: 10px;
@@ -35,11 +40,26 @@ p {
     font-family: sans-serif
   }
   .Detail {
-    border: 5px outset red;
-    background-color: burlywood;    
+    
     text-align: right;
+    position: sticky;
+    top: 0;
+
   }
   .navbar {
+    top: 0;
+    float: left;
+width: 50%
+  }
+  .navbarlogo {
+    border: 5px outset red;
+    background-color: burlywood; 
     position: sticky;
     top: 0;
   }
+  
+  .fonts { font-family:"Lucida Console", "Courier New", monospace;
+
+
+  }
+ 
